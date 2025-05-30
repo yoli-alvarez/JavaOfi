@@ -17,6 +17,15 @@ public class UsuarioSeguro {
         return contrasena;
     }
 
+    public boolean autenticar(String intentPassword){
+        if (intentPassword.equals(contrasena)) {
+            System.out.println("usuario autenticado");
+            return true;
+        }
+        System.out.println("usuario no autenticado");
+        return false;
+    }
+
     public void setContrasena(String contrasena) {
         boolean validaMayus=false;
         boolean validaMinus=false;
