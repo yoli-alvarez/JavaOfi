@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../JavaFX/JavaFX.iml" filepath="$PROJECT_DIR$/../JavaFX/JavaFX.iml" />
       <module fileurl="file://$PROJECT_DIR$/U1_TI_04_Cuenta.iml" filepath="$PROJECT_DIR$/U1_TI_04_Cuenta.iml" />
     </modules>
   </component>

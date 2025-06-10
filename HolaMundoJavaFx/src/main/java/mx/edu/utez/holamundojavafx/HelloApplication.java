@@ -16,13 +16,13 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         //FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
 
-        Label myLabel = new Label("Hola Mundo!!");
+        Label myLabel = new Label("Bienvenidos!!");
         StackPane root = new StackPane(myLabel);
         Scene scene = new Scene(root, 200, 200);
 
-        stage.setTitle("Mi primer app en Java FX");
+        stage.setTitle("Prueba");
         //Con control + espacio para seleciionar la carpeta en donde está la imagen
-        Image image = new Image(getClass().getResourceAsStream("/Icons/social-media_10693936.png"));
+        Image image = new Image(getClass().getResourceAsStream("/Icons/schedule_10693675.png"));
         stage.getIcons().add(image);
         stage.setScene(scene);
         stage.show();
